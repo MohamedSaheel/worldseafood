@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Group 1 */
+#header{
+    background-image: url(../images/group1_bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+#header li a{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600;
+    transition: .5s;
+}
+#header li a:hover{
+    transition: .5s;
+    background-color: yellow;
+    color: black;
+    border-radius: 50px;
+}
+#group1 .content h1{
+    font-size: 80px;
+    color: white;
+    letter-spacing: 2.5px;
+    margin-top: 10%;
+    font-weight: 700;
+}
+#group1 .content p{
+    color: white;
+    font-size: 18px;
+    margin-top: 2%;
+}
+#group1 .content .btn{
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 1%;
+}
+/* Group 2 */
+#group2{
+    background-image: url(../images/group2_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+#group2 .content h1{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 650;
+}
+#group2 .content p{
+    font-size: 16px;
+}
+#group2 .package h3{
+    font-weight: 600;
+}
+#group2 .package p{
+    font-weight: 600;
+}
+#group2 .package .btn{
+    margin-bottom: 13px;
+}
+/* Group 3 */
+#group3{
+    background-image: url(../images/group3_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+#group3 .content h1{
+    color: white;
+    font-weight: 650;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+#group3 .content p{
+    color: white;
+}
+#group3 .content .btn{
+    border-radius: 30px;
+}
+/* Group 4 */
+#group4{
+    background-image: url(../images/group2_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+#group4 .content h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+#group4 .content p{
+    font-size: 17px;
+}
+#group4 .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#group4 .container .box{
+    border: 8px solid rgb(0, 0, 0);
+    width: 250px;
+    height: 230px;
+    margin: 30px;
+}
+#group4 .box .content{
+    margin-top: 50px;
+}
+/* Group 6 */
+#group6{
+    background-image: url(../images/group6_bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+}
+#group6 .container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#group6 h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+#group6 .btn{
+    border-radius: 30px;
+    padding: 10px;
+}
+/* Group 7 */
+#group7{
+    background-image: url(../images/group2_bg.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+}
+#group7 .content{
+    margin-top: 10% !important;
+}
+#group7 .content h1{
+    font-size:4rem;
+    font-weight:700;
+    font-family: "Montserrat-ExtraBold";
+}   
+#txtSubscribe{
+    width: 500px;
+    background-color: #ffffff;
+    color: #333333;
+    border: 0px;
+    outline: 0px;
+    padding: 10px 25px;
+    font-family: "Montserrat";
+    margin: 0px;
+}
+#btnSubscribe{
+    width: 100px;
+    background-color: #333333;
+    color: #ffffff;
+    border: 0px;
+    outline: 0px;
+    padding: 10px;
+    font-family: "Montserrat";
+    margin: 0px;
+}
+@media screen and (max-width:576px) {
+    #txtSubscribe{
+        width: 60%;
+    } 
+}
+/* Group 8 */
+#group8{
+    background-color: #333333;min-height: 50vh;
+}
+#group8 .container .nav{
+    display: flex;
+    flex-direction: column;
+}
+#group8 .container .nav a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+#group8 .container .nav h2{
+    color: yellow;
+}
+#group8 .content h2,p{
+    color: white;
+}
+#group8 .container .nav{
+    margin-left: 50px;
+}
